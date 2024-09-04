@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url("seconde_logo.jpg") no-repeat;
+    position: center;
+    background-size: cover;
+    overflow: hidden;
+    color: white;
+}
+
+.clock{
+    display: flex;
+}
+
+.clock div{
+    margin: 5px;
+    position: relative;
+}
+.clock span{
+    width: 100px;
+    height: 80px;
+    background: rgb(90, 220, 16);
+    opacity: 0.8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    box-shadow: 2px 2px 4px 2px rgba(0,0,0,.8);
+}
+
+.clock .text{
+    height: 30px;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background: rgb(39, 110, 40);
+    opacity: 0.8;
+}
+
+.clock #ampm{
+    bottom: 0;
+    width: 60px;
+    height: 30px;
+    position: absolute;
+    font-size: 30px;
+    background: green;
+}
+
+.infos{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    align-content: center;
+}
+
+.infos img{
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    border-radius: 30px;
+    filter: drop-shadow(4px 4px 4px rgba(0,0,0,0.8));
+}
